@@ -6,13 +6,16 @@
   <title>Refresher</title>
 </head>
 <body>
-  <h1>Hello <span>user</span>. Here are a few skills to refresh:</h1>
+  <h1>Hello <span id="name">user</span>. Here are a few skills to refresh:</h1>
   <ol>
     <li>
       Make a text input and a button. When that button is clicked, change the 
       word &quot;user&quot; above to the name the user has typed into the text
-      input
+      input.
     </li>
   </ol>
+  <label for="name-input">Enter your name:<input type="text" id="name-input"/></label>
+  <button onclick="changeUserToName()">Submit name</button>
+  <script src="script.js"></script>
 </body>
 </html>
