@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Refresher</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1>Hello <span id="name">user</span>. Here are a few skills to refresh:</h1>
@@ -20,7 +21,10 @@
     </li>
   </ol>
   <label for="name-input">Enter your name:<input type="text" id="name-input"/></label>
-  <button onclick="changeUserToName()">Submit name</button><br>
+  <button onclick="changeUserToName()">Submit name</button><br><br>
+  <button onclick="align('left')">Left</button>
+  <button onclick="align('center')">Center</button>
+  <button onclick="align('right')">Right</button>
   <script src="script.js"></script>
 </body>
 </html>
